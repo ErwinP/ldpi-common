@@ -1,0 +1,5 @@
+<resources>
+    <!-- Height of edit text in dialpad fragment -->
+    <!-- digits_text_size reduced from 35sp to 28sp -->
+    <dimen name="dialpad_digits_text_size">28sp</dimen>
+</resources>

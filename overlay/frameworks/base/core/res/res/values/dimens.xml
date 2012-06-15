@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default height of a key in the password keyboard for alpha (used by keyguard) default was 56dip -->
+    <dimen name="password_keyboard_key_height_alpha">46dip</dimen>
+    <!-- Default height of a key in the password keyboard for numeric (used by keyguard)  default was 56dip -->
+    <dimen name="password_keyboard_key_height_numeric">46dip</dimen>
+    <!-- Default correction for the space key in the password keyboard  (used by keyguard) -->
+    <dimen name="password_keyboard_spacebar_vertical_correction">4dip</dimen>
+    <!-- Default horizontal gap between keys in the password keyboard (used by keyguard)  default was 3dip -->
+    <dimen name="password_keyboard_horizontalGap">1dip</dimen>
+    <!-- Default vertical gap between keys in the password keyboard (used by keyguard)  default was 9dip -->
+    <dimen name="password_keyboard_verticalGap">1dip</dimen>
+
+
+    <!-- Size of clock font in LockScreen on Unsecure unlock screen. -->
+    <dimen name="keyguard_lockscreen_clock_font_size">75dip</dimen>
+    <!-- Size of clock font default was 80dip -->
+
+    <!-- Size of top margin on Clock font to edge on unlock LockScreen -->
+    <dimen name="keyguard_lockscreen_status_line_clockfont_top_margin">5dip</dimen>
+    <!-- Size of top margin on Clock font default was 22dip -->
+</resources>

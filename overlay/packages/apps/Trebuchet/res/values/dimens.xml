@@ -1,0 +1,25 @@
+<resources>
+<!-- Workspace -->
+    <dimen name="workspace_max_gap">4dp</dimen>
+
+    <dimen name="app_icon_padding_top">2dp</dimen>
+<!-- AllApps/Customize/AppsCustomize -->
+    <dimen name="apps_customize_tab_bar_height">40dp</dimen>
+    <dimen name="apps_customize_max_gap">4dp</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">2dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">2dp</dimen>
+    <!-- height of the bottom row of controls -->
+    <dimen name="button_bar_height">51dip</dimen>
+    <dimen name="button_bar_height_top_padding">2dp</dimen>
+    <dimen name="button_bar_height_bottom_padding">2dp</dimen>
+    <dimen name="button_bar_height_plus_padding">55dp</dimen>
+
+    <!-- Padding applied to AppWidgets -->
+    <dimen name="app_widget_padding_left">2dp</dimen>
+    <dimen name="app_widget_padding_right">2dp</dimen>
+    <dimen name="app_widget_padding_top">2dp</dimen>
+    <dimen name="app_widget_padding_bottom">2dp</dimen>
+    <dimen name="app_widget_preview_padding_left">1dp</dimen>
+    <dimen name="app_widget_preview_padding_top">1dp</dimen>
+
+</resources>

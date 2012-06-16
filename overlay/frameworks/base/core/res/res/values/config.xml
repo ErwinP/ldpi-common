@@ -7,6 +7,10 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">false</bool>
 
+    <!-- Speed up UI - disable Blur when not required -->
+    <bool name="config_sf_slowBlur">true</bool>
+
+
     <!-- List of regexpressions describing the interface (if any) that represent tetherable
          USB interfaces.  If the device doesn't want to support tething over USB this should
          be empty.  An example would be "usb.*" -->

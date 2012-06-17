@@ -28,7 +28,7 @@
     <int name="maxMessageCountPerThread">5000</int>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://www.htcmms.com.tw/Android/Common/tattoo/ua-profile.xml</string>
+    <string name="uaProfUrl">http://www.htcmms.com.tw/Android/Common/wildfire/ua-profile.xml</string>
 
     <!-- Maximum number of recipients allowed per message. Use a value of -1
          to indicate no limit. -->
@@ -43,10 +43,6 @@
          via multi media message. -->
     <bool name="enableMultipartSMS">false</bool>
 
-    <!-- If true, the text message will be split every 160 characters.
-         If false, the text will never be split before being sent. -->
-    <bool name="enableSplitSMS">false</bool>
-
     <!-- If true, The mms support slide duration.
          If false, The mms does not support slide duration and we have to
          set duration value. -->
@@ -57,5 +53,5 @@
     <int name="maxMessageTextSize">-1</int>
 
     <!-- User-Agent parameter used in MMS http request -->
-    <string name="userAgent">Tattoo</string>
+    <string name="userAgent">Wildfire</string>
 </mms_config>

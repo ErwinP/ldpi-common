@@ -21,4 +21,6 @@
     <integer name="valueOn">1</integer>
     <integer name="valueHigh">128</integer>
     <integer name="valueDeathRay">3</integer>
+    <!-- If there is no sysfs-based control mechanism, enable this -->
+    <bool name="useCameraInterface">true</bool>
 </resources>

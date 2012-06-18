@@ -116,7 +116,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="4dip" >
+        android:paddingTop="8dip" >
 
         <ImageView
             android:id="@+id/weather_image"
@@ -170,9 +170,10 @@
                 android:textSize="6sp"
                 android:textColor="?android:attr/textColorSecondary" />
 
-            </RelativeLayout>
+        </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/weather_temps_panel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/weather_image"
@@ -209,11 +210,13 @@
     </RelativeLayout>
 
     <!-- CyanogenMod Calendar Panel -->
+    <!-- android:layout_marginTop is added to push Calender notifications down -->
     <LinearLayout
         android:id="@+id/calendar_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="28dip"
+        android:layout_marginTop="65dip"
         android:gravity="center_vertical"
         android:paddingLeft="12dip"
         android:paddingRight="12dip" >
@@ -297,7 +300,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="78dip"
+            android:layout_marginBottom="82dip"
             android:gravity="center_horizontal"
             android:singleLine="true"
             android:ellipsize="marquee"

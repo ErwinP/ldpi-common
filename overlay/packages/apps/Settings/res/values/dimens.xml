@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- original: 252dip -->
+    <dimen name="data_usage_chart_height">500dip</dimen>
+    <!-- original: 440dip -->
+    <dimen name="data_usage_chart_optimalWidth">440dip</dimen>
+</resources>

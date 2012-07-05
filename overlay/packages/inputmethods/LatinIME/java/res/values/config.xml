@@ -20,4 +20,6 @@
 <resources>
     <!-- Default value is 100 -->
     <integer name="config_mini_keyboard_fadeout_anim_time">0</integer>
+    <!-- Default value is 16 -->
+    <integer name="config_keyboard_grid_height">10</integer>
 </resources>

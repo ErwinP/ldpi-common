@@ -22,6 +22,4 @@
     <bool name="needsEarlyVideoSize">true</bool>
     <!-- Restart the preview on picture taken -->
     <bool name="restartPreviewOnPictureTaken">true</bool>
-    <!-- Restart the preview if the picture size changes -->
-    <bool name="restartPreviewOnPictureSizeChange">true</bool>
 </resources>

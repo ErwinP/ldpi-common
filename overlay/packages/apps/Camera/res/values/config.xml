@@ -22,4 +22,6 @@
     <bool name="needsEarlyVideoSize">true</bool>
     <!-- Restart the preview on picture taken -->
     <bool name="restartPreviewOnPictureTaken">true</bool>
+    <!-- Enable zero-shutter-lag -->
+    <bool name="enableZSL">true</bool>
 </resources>

@@ -19,7 +19,11 @@
 
 <resources>
     <!-- Allows setting video size before recording starts -->
+    <!-- Needs kernel changes -->
     <bool name="needsEarlyVideoSize">true</bool>
+    <!-- HTC Camcorder Mode -->
+    <!-- Possibly needs kernel changes -->
+    <bool name="needsHTCCamMode">false</bool>
     <!-- Restart the preview on picture taken -->
     <bool name="restartPreviewOnPictureTaken">true</bool>
     <!-- Enable zero-shutter-lag -->

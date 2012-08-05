@@ -155,7 +155,7 @@
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
 
     <!-- Package name providing geocoder API support. --> 
-    <string name="config_geocodeProviderPackageName translatable="false">com.google.android.location.GeocodeProvider</string>
+    <string name="config_geocodeProviderPackageName" translatable="false">com.google.android.location.GeocodeProvider</string>
 
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
